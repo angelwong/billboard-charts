@@ -1,0 +1,507 @@
+{
+    "date": "2015-11-28", 
+    "entries": [
+        {
+            "artist": "Adele", 
+            "rank": 1, 
+            "title": "Hello"
+        }, 
+        {
+            "artist": "Drake", 
+            "rank": 2, 
+            "title": "Hotline Bling"
+        }, 
+        {
+            "artist": "Justin Bieber", 
+            "rank": 3, 
+            "title": "Sorry"
+        }, 
+        {
+            "artist": "The Weeknd", 
+            "rank": 4, 
+            "title": "The Hills"
+        }, 
+        {
+            "artist": "Shawn Mendes", 
+            "rank": 5, 
+            "title": "Stitches"
+        }, 
+        {
+            "artist": "Justin Bieber", 
+            "rank": 6, 
+            "title": "What Do You Mean?"
+        }, 
+        {
+            "artist": "Fetty Wap Featuring Remy Boyz", 
+            "rank": 7, 
+            "title": "679"
+        }, 
+        {
+            "artist": "Taylor Swift", 
+            "rank": 8, 
+            "title": "Wildest Dreams"
+        }, 
+        {
+            "artist": "Meghan Trainor Featuring John Legend", 
+            "rank": 9, 
+            "title": "Like I'm Gonna Lose You"
+        }, 
+        {
+            "artist": "Elle King", 
+            "rank": 10, 
+            "title": "Ex's & Oh's"
+        }, 
+        {
+            "artist": "Alessia Cara", 
+            "rank": 11, 
+            "title": "Here"
+        }, 
+        {
+            "artist": "The Weeknd", 
+            "rank": 12, 
+            "title": "Can't Feel My Face"
+        }, 
+        {
+            "artist": "Ariana Grande", 
+            "rank": 13, 
+            "title": "Focus"
+        }, 
+        {
+            "artist": "Selena Gomez", 
+            "rank": 14, 
+            "title": "Same Old Love"
+        }, 
+        {
+            "artist": "Ellie Goulding", 
+            "rank": 15, 
+            "title": "On My Mind"
+        }, 
+        {
+            "artist": "Drake & Future", 
+            "rank": 16, 
+            "title": "Jumpman"
+        }, 
+        {
+            "artist": "R. City Featuring Adam Levine", 
+            "rank": 17, 
+            "title": "Locked Away"
+        }, 
+        {
+            "artist": "Silento", 
+            "rank": 18, 
+            "title": "Watch Me"
+        }, 
+        {
+            "artist": "Major Lazer & DJ Snake Featuring M0", 
+            "rank": 19, 
+            "title": "Lean On"
+        }, 
+        {
+            "artist": "Chris Stapleton", 
+            "rank": 20, 
+            "title": "Tennessee Whiskey"
+        }, 
+        {
+            "artist": "X Ambassadors", 
+            "rank": 21, 
+            "title": "Renegades"
+        }, 
+        {
+            "artist": "Fetty Wap", 
+            "rank": 22, 
+            "title": "Trap Queen"
+        }, 
+        {
+            "artist": "iLoveMemphis", 
+            "rank": 23, 
+            "title": "Hit The Quan"
+        }, 
+        {
+            "artist": "Travi$ Scott", 
+            "rank": 24, 
+            "title": "Antidote"
+        }, 
+        {
+            "artist": "Thomas Rhett", 
+            "rank": 25, 
+            "title": "Die A Happy Man"
+        }, 
+        {
+            "artist": "Selena Gomez Featuring A$AP Rocky", 
+            "rank": 26, 
+            "title": "Good For You"
+        }, 
+        {
+            "artist": "Justin Bieber", 
+            "rank": 27, 
+            "title": "I'll Show You"
+        }, 
+        {
+            "artist": "Post Malone", 
+            "rank": 28, 
+            "title": "White Iverson"
+        }, 
+        {
+            "artist": "One Direction", 
+            "rank": 29, 
+            "title": "Drag Me Down"
+        }, 
+        {
+            "artist": "Macklemore & Ryan Lewis Featuring Eric Nally, Melle Mel, Kool Moe Dee & Grandmaster Caz", 
+            "rank": 30, 
+            "title": "Downtown"
+        }, 
+        {
+            "artist": "Future Featuring Drake", 
+            "rank": 31, 
+            "title": "Where Ya At"
+        }, 
+        {
+            "artist": "Demi Lovato", 
+            "rank": 32, 
+            "title": "Confident"
+        }, 
+        {
+            "artist": "Wiz Khalifa Featuring Charlie Puth", 
+            "rank": 33, 
+            "title": "See You Again"
+        }, 
+        {
+            "artist": "OMI", 
+            "rank": 34, 
+            "title": "Cheerleader"
+        }, 
+        {
+            "artist": "Fetty Wap Featuring Monty", 
+            "rank": 35, 
+            "title": "My Way"
+        }, 
+        {
+            "artist": "Mark Ronson Featuring Bruno Mars", 
+            "rank": 36, 
+            "title": "Uptown Funk!"
+        }, 
+        {
+            "artist": "Ed Sheeran", 
+            "rank": 37, 
+            "title": "Photograph"
+        }, 
+        {
+            "artist": "Calvin Harris & Disciples", 
+            "rank": 38, 
+            "title": "How Deep Is Your Love"
+        }, 
+        {
+            "artist": "WALK THE MOON", 
+            "rank": 39, 
+            "title": "Shut Up And Dance"
+        }, 
+        {
+            "artist": "One Direction", 
+            "rank": 40, 
+            "title": "Perfect"
+        }, 
+        {
+            "artist": "Fetty Wap", 
+            "rank": 41, 
+            "title": "Again"
+        }, 
+        {
+            "artist": "Bryson Tiller", 
+            "rank": 42, 
+            "title": "Don't"
+        }, 
+        {
+            "artist": "Sam Hunt", 
+            "rank": 43, 
+            "title": "Break Up In A Small Town"
+        }, 
+        {
+            "artist": "Chris Young", 
+            "rank": 44, 
+            "title": "I'm Comin' Over"
+        }, 
+        {
+            "artist": "Ed Sheeran", 
+            "rank": 45, 
+            "title": "Thinking Out Loud"
+        }, 
+        {
+            "artist": "Carrie Underwood", 
+            "rank": 46, 
+            "title": "Smoke Break"
+        }, 
+        {
+            "artist": "Rachel Platten", 
+            "rank": 47, 
+            "title": "Fight Song"
+        }, 
+        {
+            "artist": "Rudimental Featuring Ed Sheeran", 
+            "rank": 48, 
+            "title": "Lay It All On Me"
+        }, 
+        {
+            "artist": "Skrillex & Diplo With Justin Bieber", 
+            "rank": 49, 
+            "title": "Where Are U Now"
+        }, 
+        {
+            "artist": "J. Cole", 
+            "rank": 50, 
+            "title": "No Role Modelz"
+        }, 
+        {
+            "artist": "Cam", 
+            "rank": 51, 
+            "title": "Burning House"
+        }, 
+        {
+            "artist": "Luke Bryan", 
+            "rank": 52, 
+            "title": "Strip It Down"
+        }, 
+        {
+            "artist": "Old Dominion", 
+            "rank": 53, 
+            "title": "Break Up With Him"
+        }, 
+        {
+            "artist": "DeJ Loaf Featuring Big Sean", 
+            "rank": 54, 
+            "title": "Back Up"
+        }, 
+        {
+            "artist": "Coldplay", 
+            "rank": 55, 
+            "title": "Adventure Of A Lifetime"
+        }, 
+        {
+            "artist": "Drake", 
+            "rank": 56, 
+            "title": "Back To Back"
+        }, 
+        {
+            "artist": "Tory Lanez", 
+            "rank": 57, 
+            "title": "Say It"
+        }, 
+        {
+            "artist": "Rae Sremmurd", 
+            "rank": 58, 
+            "title": "Come Get Her"
+        }, 
+        {
+            "artist": "Blake Shelton", 
+            "rank": 59, 
+            "title": "Gonna"
+        }, 
+        {
+            "artist": "Cole Swindell", 
+            "rank": 60, 
+            "title": "Let Me See Ya Girl"
+        }, 
+        {
+            "artist": "DLOW", 
+            "rank": 61, 
+            "title": "Bet You Can't Do It Like Me"
+        }, 
+        {
+            "artist": "Dan + Shay", 
+            "rank": 62, 
+            "title": "Nothin' Like You"
+        }, 
+        {
+            "artist": "Ty Dolla $ign Featuring Future & Rae Sremmurd", 
+            "rank": 63, 
+            "title": "Blase"
+        }, 
+        {
+            "artist": "The Chainsmokers Featuring ROZES", 
+            "rank": 64, 
+            "title": "Roses"
+        }, 
+        {
+            "artist": "One Direction", 
+            "rank": 65, 
+            "title": "History"
+        }, 
+        {
+            "artist": "Nelly Featuring Jeremih", 
+            "rank": 66, 
+            "title": "The Fix"
+        }, 
+        {
+            "artist": "Hailee Steinfeld", 
+            "rank": 67, 
+            "title": "Love Myself"
+        }, 
+        {
+            "artist": "Chris Brown", 
+            "rank": 68, 
+            "title": "Liquor"
+        }, 
+        {
+            "artist": "twenty one pilots", 
+            "rank": 69, 
+            "title": "Stressed Out"
+        }, 
+        {
+            "artist": "Drake & Future", 
+            "rank": 70, 
+            "title": "Big Rings"
+        }, 
+        {
+            "artist": "Daya", 
+            "rank": 71, 
+            "title": "Hide Away"
+        }, 
+        {
+            "artist": "Brothers Osborne", 
+            "rank": 72, 
+            "title": "Stay A Little Longer"
+        }, 
+        {
+            "artist": "Sam Smith", 
+            "rank": 73, 
+            "title": "Writing's On The Wall"
+        }, 
+        {
+            "artist": "Jason Aldean", 
+            "rank": 74, 
+            "title": "Gonna Know We Were Here"
+        }, 
+        {
+            "artist": "Sia", 
+            "rank": 75, 
+            "title": "Alive"
+        }, 
+        {
+            "artist": "Bryson Tiller", 
+            "rank": 76, 
+            "title": "Exchange"
+        }, 
+        {
+            "artist": "Jana Kramer", 
+            "rank": 77, 
+            "title": "I Got The Boy"
+        }, 
+        {
+            "artist": "Drake", 
+            "rank": 78, 
+            "title": "Right Hand"
+        }, 
+        {
+            "artist": "Florida Georgia Line", 
+            "rank": 79, 
+            "title": "Anything Goes"
+        }, 
+        {
+            "artist": "Tim McGraw", 
+            "rank": 80, 
+            "title": "Top Of The World"
+        }, 
+        {
+            "artist": "Demi Lovato", 
+            "rank": 81, 
+            "title": "Cool For The Summer"
+        }, 
+        {
+            "artist": "K Camp", 
+            "rank": 82, 
+            "title": "Comfortable"
+        }, 
+        {
+            "artist": "Kenny Chesney", 
+            "rank": 83, 
+            "title": "Save It For A Rainy Day"
+        }, 
+        {
+            "artist": "Fetty Wap", 
+            "rank": 84, 
+            "title": "RGF Island"
+        }, 
+        {
+            "artist": "Drake & Future", 
+            "rank": 85, 
+            "title": "Diamonds Dancing"
+        }, 
+        {
+            "artist": "DNCE", 
+            "rank": 86, 
+            "title": "Cake By The Ocean"
+        }, 
+        {
+            "artist": "Chris Stapleton", 
+            "rank": 87, 
+            "title": "Traveller"
+        }, 
+        {
+            "artist": "Jordan Smith", 
+            "rank": 88, 
+            "title": "Halo"
+        }, 
+        {
+            "artist": "G-Eazy x Bebe Rexha", 
+            "rank": 89, 
+            "title": "Me, Myself & I"
+        }, 
+        {
+            "artist": "LoCash", 
+            "rank": 90, 
+            "title": "I Love This Life"
+        }, 
+        {
+            "artist": "Missy Elliott Featuring Pharrell Williams", 
+            "rank": 91, 
+            "title": "WTF (Where They From)"
+        }, 
+        {
+            "artist": "Kelsea Ballerini", 
+            "rank": 92, 
+            "title": "Dibs"
+        }, 
+        {
+            "artist": "Lil Dicky Featuring Fetty Wap & Rich Homie Quan", 
+            "rank": 93, 
+            "title": "$ave Dat Money"
+        }, 
+        {
+            "artist": "Rachel Platten", 
+            "rank": 94, 
+            "title": "Stand By You"
+        }, 
+        {
+            "artist": "Jess Glynne", 
+            "rank": 95, 
+            "title": "Hold My Hand"
+        }, 
+        {
+            "artist": "Flo Rida", 
+            "rank": 96, 
+            "title": "My House"
+        }, 
+        {
+            "artist": "J Balvin", 
+            "rank": 97, 
+            "title": "Ginza"
+        }, 
+        {
+            "artist": "Big Sean Featuring Chris Brown & Ty Dolla $ign", 
+            "rank": 98, 
+            "title": "Play No Games"
+        }, 
+        {
+            "artist": "Nick Jonas", 
+            "rank": 99, 
+            "title": "Levels"
+        }, 
+        {
+            "artist": "Zac Brown Band", 
+            "rank": 100, 
+            "title": "Beautiful Drug"
+        }
+    ], 
+    "latest": false, 
+    "name": "hot-100"
+}

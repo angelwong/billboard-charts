@@ -2,6 +2,7 @@
 import json
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime, timedelta
 
 """billboard.py: Unofficial Python API for accessing ranking charts from Billboard.com."""
 
@@ -39,16 +40,16 @@ class ChartEntry:
             highest-ranked 'New' song.
     """
 
-    def __init__(self, title, artist, peakPos, lastPos, weeks, rank, change):
+    def __init__(self, title, artist, rank):
         """Constructs a new ChartEntry instance with given attributes.
         """
         self.title = title
         self.artist = artist
-        self.peakPos = peakPos
-        self.lastPos = lastPos
-        self.weeks = weeks
+#        self.peakPos = peakPos
+#        self.lastPos = lastPos
+#        self.weeks = weeks
         self.rank = rank
-        self.change = change
+#        self.change = change
 
     def __repr__(self):
         """Returns a string of the form 'TITLE by ARTIST'.
@@ -59,8 +60,7 @@ class ChartEntry:
         """Returns the entry as a JSON string.
         This is useful for caching.
         """
-        return json.dumps(self, default=lambda o: o.__dict__,
-                          sort_keys=True, indent=4)
+        return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True, indent=4)
 
 
 class ChartData:
@@ -94,7 +94,12 @@ class ChartData:
         """
         self.name = name
         if date:
-            self.date = date
+            d = datetime.strptime(date, '%Y-%m-%d')
+            t = timedelta((12 - d.weekday()) % 7)
+            saturdate = (d + t).strftime('%Y-%m-%d')
+            print saturdate
+
+            self.date = saturdate
             self.latest = False
         else:
             self.date = None
@@ -127,14 +132,18 @@ class ChartData:
         """
         return len(self.entries)
 
-    def to_JSON(self):
+    def to_JSON(self, file_name='chart.json'):
         """Returns the entry as a JSON string.
         This is useful for caching.
         """
         for entry in self.entries:
             entry = entry.to_JSON()
-        return json.dumps(self, default=lambda o: o.__dict__,
-                          sort_keys=True, indent=4)
+
+        with open(file_name, 'w') as outfile:
+            json.dump(self, outfile, default=lambda o: o.__dict__, sort_keys=True, indent=4)    
+
+        #return json.dumps(self, default=lambda o: o.__dict__,
+        #                  sort_keys=True, indent=4)
 
     def fetchEntries(self, all=False):
         """GETs the corresponding chart data from Billboard.com, then parses
@@ -150,16 +159,19 @@ class ChartData:
         soup = BeautifulSoup(html, 'html.parser')
 
         for entry_soup in soup.find_all('article', {"class": "chart-row"}):
-
+            
             # Grab title and artist
-            basicInfoSoup = entry_soup.find('div', 'row-title').contents
+            basicInfoSoup = entry_soup.find('div', 'chart-row__title').contents
             title = basicInfoSoup[1].string.strip()
+            print title
 
             if (basicInfoSoup[3].find('a')):
                 artist = basicInfoSoup[3].a.string.strip()
             else:
                 artist = basicInfoSoup[3].string.strip()
+            print artist
 
+            '''
             # Grab week data (peak rank, last week's rank, total weeks on
             # chart)
             weekInfoSoup = entry_soup.find('div', 'stats').contents
@@ -169,11 +181,14 @@ class ChartData:
             lastPos = 0 if lastPos == '--' else int(lastPos)
 
             weeks = int(weekInfoSoup[5].find('span', 'value').string.strip())
+            '''
 
             # Get current rank
             rank = int(
-                entry_soup.find('div', 'row-rank').find('span', 'this-week').string.strip())
+                entry_soup.find('div', 'chart-row__rank').find('span', 'chart-row__current-week').string.strip())
+            print rank
 
+            '''
             change = lastPos - rank
             if lastPos == 0:
                 # New entry
@@ -186,17 +201,19 @@ class ChartData:
                 change = "+" + str(change)
             else:
                 change = str(change)
+            '''
 
             self.entries.append(
-                ChartEntry(title, artist, peakPos,
-                           lastPos, weeks, rank, change))
+                ChartEntry(title, artist, rank))
 
         # Hot Shot Debut is the top-ranked new entry, or the first "New" entry
         # we find.
+        '''
         for entry in self.entries:
             if entry.change == "New":
                 entry.change = "Hot Shot Debut"
                 break
+        '''
 
 
 def downloadHTML(url):

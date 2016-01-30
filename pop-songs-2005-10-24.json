@@ -1,0 +1,107 @@
+{
+    "date": "2005-10-29", 
+    "entries": [
+        {
+            "artist": "Kelly Clarkson", 
+            "rank": 1, 
+            "title": "Because Of You"
+        }, 
+        {
+            "artist": "Kanye West Featuring Jamie Foxx", 
+            "rank": 2, 
+            "title": "Gold Digger"
+        }, 
+        {
+            "artist": "Mariah Carey", 
+            "rank": 3, 
+            "title": "Shake It Off"
+        }, 
+        {
+            "artist": "Green Day", 
+            "rank": 4, 
+            "title": "Wake Me Up When September Ends"
+        }, 
+        {
+            "artist": "The Black Eyed Peas", 
+            "rank": 5, 
+            "title": "My Humps"
+        }, 
+        {
+            "artist": "Weezer", 
+            "rank": 6, 
+            "title": "Beverly Hills"
+        }, 
+        {
+            "artist": "Nickelback", 
+            "rank": 7, 
+            "title": "Photograph"
+        }, 
+        {
+            "artist": "Fall Out Boy", 
+            "rank": 8, 
+            "title": "Sugar, We're Goin' Down"
+        }, 
+        {
+            "artist": "Lifehouse", 
+            "rank": 9, 
+            "title": "You And Me"
+        }, 
+        {
+            "artist": "Bow Wow Featuring Ciara", 
+            "rank": 10, 
+            "title": "Like You"
+        }, 
+        {
+            "artist": "Chris Brown", 
+            "rank": 11, 
+            "title": "Run It!"
+        }, 
+        {
+            "artist": "Rihanna", 
+            "rank": 12, 
+            "title": "Pon de Replay"
+        }, 
+        {
+            "artist": "Pretty Ricky", 
+            "rank": 13, 
+            "title": "Your Body"
+        }, 
+        {
+            "artist": "Gorillaz", 
+            "rank": 14, 
+            "title": "Feel Good Inc"
+        }, 
+        {
+            "artist": "The Pussycat Dolls Featuring Busta Rhymes", 
+            "rank": 15, 
+            "title": "Don't Cha"
+        }, 
+        {
+            "artist": "Frankie J", 
+            "rank": 16, 
+            "title": "More Than Words"
+        }, 
+        {
+            "artist": "Kelly Clarkson", 
+            "rank": 17, 
+            "title": "Behind These Hazel Eyes"
+        }, 
+        {
+            "artist": "D.H.T.", 
+            "rank": 18, 
+            "title": "Listen To Your Heart"
+        }, 
+        {
+            "artist": "Akon", 
+            "rank": 19, 
+            "title": "Belly Dancer (Bananza)"
+        }, 
+        {
+            "artist": "Papa Roach", 
+            "rank": 20, 
+            "title": "Scars"
+        }
+    ], 
+    "latest": false, 
+    "name": "pop-songs"
+}
